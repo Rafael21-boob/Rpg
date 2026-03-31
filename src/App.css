@@ -1,0 +1,121 @@
+main{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background: #999;
+}
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2vh;
+    color: #eab9ff;
+    text-shadow: 2px 2px 4px #000;
+}
+.emoji{
+    width: 20%;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+    background: #000;
+    margin-top: 2vh;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    float: left;
+}
+.heroi{
+    width: 60%;
+    height: 4.5vh;
+    float: left;
+    margin-top: 4vh;
+    margin-left: 4%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-indent: 7px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #7b0b8c;
+}
+#status{
+    width: 90%;
+    height: 8vh;
+    float: left;
+    margin-left: 5%;
+    background-color: #ffffff75;
+    box-shadow: 0 0 5px #333;
+    margin-top: 4vh;
+    border-radius: 12px;
+}
+#status h2{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1vh;
+}
+#status p{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin-top: 1vh;
+    font-style: italic;
+}
+#pontosVida{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin-top: 4vh;
+}
+#pontosVida span{
+    color: #9815b9;
+}
+#barravida{
+    width: 90%;
+    height: 2vh;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1vh;
+    background: yellow;
+    border-radius: 200px;
+    box-shadow: 0 0 6px #fff;
+
+}
+.dano{
+    width: 40%;
+    height: 5vh;
+    float: left;
+    margin-left: 6.6%;
+    margin-top: 4vh;
+}
+#classes{
+    width: 90%;
+    height: auto;
+    padding: 5%;
+    border-top: 1px solid #ffffffe7;
+    margin-top: 4vh;
+    float: left;
+    margin-left: 5%;
+}
+#classe h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+.classeBT{
+    width: 40%;
+    height: 4vh;
+    float: left;
+    margin-left: 6.6%;
+    margin-top: 2vh;
+}
